@@ -1,6 +1,6 @@
 turns = 3
 
-for turns in range(2, -1, -1):
+for turns in range(turns-1, -1, -1):
     guess = input("Enter a word: ")
     if guess == "AWK":
         print("Congrats that you can guss the secret_word correctly")
